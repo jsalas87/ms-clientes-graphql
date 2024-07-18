@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Cliente {
+  id: ID!
+  rut: String!
+  razon_social: String!
+  direccion: String!
+  telefono_principal: String!
+}
+
+type Query {
+  cliente(id: Float!): Cliente!
+}
